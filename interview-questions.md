@@ -28,7 +28,9 @@ git-scm.com
 
 Your answer: Equality, logical and relational operators will return Boolean.
 
-Researched answer: 
+Researched answer: javascript operators are known as if/else statements or decisions trees that help compare to elements and decide the outcome on a true or false value.  There are equality operators that check if the two values are equal ex. ===(stricly equals). Logical operators are able to compare two evalutaions with symbols && (and), || (or), !(not). Relational operators are used for arithmetic evaluations and uses the signs >(greater than), <(less than), >=, <=. 
+
+Used my class notes on this one. 
 
 3. What is an index? What is the difference between index and value?
 

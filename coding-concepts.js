@@ -56,4 +56,5 @@ const dataTypes = ["number", "string", "Boolean", "undefined"]
 //output:number
 
 // a) Your answer:4
-// b) Verify and explain:number due to the "typeof" operator which checks the type of operand's value which is an array that only returns numbers. 
+// b) Verify and explain:number due to the "typeof" operator which checks the type of data which are strings then the .legnth built in method for strings that is ran and returns a number. 
+

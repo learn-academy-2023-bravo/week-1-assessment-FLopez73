@@ -50,9 +50,9 @@ if (temp > 212){
 }
 
 
-console.log(boilingPoint (42))  //42 above boiling point
-console.log(boilingPoint (350)) // 350 above boiling point
-console.log(boilingPoint (212)) //212 at boiling point
+console.log(boilingPoint (temperature1))  //42 above boiling point
+console.log(boilingPoint (temperature2)) // 350 above boiling point
+console.log(boilingPoint (temperature3)) //212 at boiling point
  
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
@@ -73,22 +73,26 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Pseudo code:
 //input:1 string
 //output: string reversed
-// create a const ourCohort to turn the string into an array using .split method
-//using method console.log to reverse the array secondarrly running .join function to turn array back into string
+// create a const ourCohort to turn the string into an array using .split method using quotations as a separator. 
+//using method console.log to reverse the array secondarrly running .join function with quotations to reverse the earlier separation and it turn back from the array to a string. 
 //return string in reverse order
 
 const currentCohort = "Bravo 2023"
 // Expected output: "3202 ovarB"
  
-//const ourCohort = (currentCohort.split(''))
+const ourCohort = (currentCohort.split(''))
 
-//console.log((ourCohort.reverse()).join(''))
+console.log((ourCohort.reverse()).join(''))
 //output:3202 ovarB
 
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Pseudo code:
+// input:1 array 
+// output: nubmer that is the index position
+// creating a console.log that takes the array and runs a bulit-method .lastOfindex which can take the variable as an argument to check against the values in the array.
+// returns a number that represnts the index position of the variable. 
 
 const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 const givenValue1 = 42
@@ -107,6 +111,9 @@ const givenValue2 = 10
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Pseudo code:
+// input: 1 array 
+// output: 1 array 
+// create a funtion named tempOne that take the that takes the varible which is an array of numbers then running the built-in method of .sort() to rearrange numbers from lowest to higest lastly running .reverse() to flip the order from highest to lowest which is the return. 
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // Expected output: [82, 80, 79, 77, 76, 73, 72]
